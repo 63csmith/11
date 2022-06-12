@@ -1,14 +1,24 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "note tacker app",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon sever.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "author": "chris smith",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "63csmith"
+  },
+  "keywords": [
+    "notes"
+  ]
 }
